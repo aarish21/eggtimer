@@ -53,6 +53,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahD-AU-Xi3" userLabel="soft">
                                                         <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <state key="normal" title="soft"/>
                                                         <connections>
                                                             <action selector="eggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cRP-nV-yo1"/>
                                                         </connections>
@@ -83,6 +84,7 @@
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sei-er-ZqA" userLabel="medium">
                                                         <rect key="frame" x="0.0" y="0.0" width="125" height="273"/>
+                                                        <state key="normal" title="medium"/>
                                                         <connections>
                                                             <action selector="eggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fJg-vV-nnB"/>
                                                         </connections>
@@ -112,6 +114,7 @@
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x78-aj-dYp" userLabel="hard">
                                                         <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
+                                                        <state key="normal" title="hard"/>
                                                         <connections>
                                                             <action selector="eggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rod-us-PV7"/>
                                                         </connections>
