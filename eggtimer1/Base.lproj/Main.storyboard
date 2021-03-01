@@ -46,10 +46,6 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBO-i1-bY0" userLabel="softView">
                                                 <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="zDy-bd-lD8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
-                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahD-AU-Xi3" userLabel="soft">
                                                         <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -58,6 +54,10 @@
                                                             <action selector="eggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cRP-nV-yo1"/>
                                                         </connections>
                                                     </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="zDy-bd-lD8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
@@ -78,10 +78,6 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRJ-hm-LXx" userLabel="mediumView">
                                                 <rect key="frame" x="144.5" y="0.0" width="125" height="273"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="rDZ-4z-5f6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="125" height="273"/>
-                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sei-er-ZqA" userLabel="medium">
                                                         <rect key="frame" x="0.0" y="0.0" width="125" height="273"/>
                                                         <state key="normal" title="medium"/>
@@ -89,6 +85,10 @@
                                                             <action selector="eggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fJg-vV-nnB"/>
                                                         </connections>
                                                     </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="rDZ-4z-5f6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="125" height="273"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
@@ -109,9 +109,6 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MHP-wX-Jha" userLabel="hardView">
                                                 <rect key="frame" x="289.5" y="0.0" width="124.5" height="273"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="kSi-fb-5zi">
-                                                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
-                                                    </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x78-aj-dYp" userLabel="hard">
                                                         <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
                                                         <state key="normal" title="hard"/>
@@ -119,6 +116,9 @@
                                                             <action selector="eggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rod-us-PV7"/>
                                                         </connections>
                                                     </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="kSi-fb-5zi">
+                                                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="273"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="x78-aj-dYp" firstAttribute="centerY" secondItem="MHP-wX-Jha" secondAttribute="centerY" id="2Ms-Qa-fiW"/>
@@ -146,13 +146,21 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="agN-Tf-5Ot">
+                                                <rect key="frame" x="10" y="134" width="394" height="4"/>
+                                                <color key="progressTintColor" systemColor="systemYellowColor"/>
+                                                <color key="trackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="agN-Tf-5Ot" firstAttribute="leading" secondItem="eus-0F-7oS" secondAttribute="leading" constant="10" id="0Oa-Fh-8d2"/>
                                             <constraint firstAttribute="bottom" secondItem="n7Z-br-0Wh" secondAttribute="bottom" id="HPf-3h-kTM"/>
+                                            <constraint firstItem="agN-Tf-5Ot" firstAttribute="centerY" secondItem="eus-0F-7oS" secondAttribute="centerY" id="Kqm-JZ-bBf"/>
                                             <constraint firstItem="n7Z-br-0Wh" firstAttribute="leading" secondItem="eus-0F-7oS" secondAttribute="leading" id="SXa-HC-KQo"/>
                                             <constraint firstItem="n7Z-br-0Wh" firstAttribute="top" secondItem="eus-0F-7oS" secondAttribute="top" id="V45-1Y-vUY"/>
                                             <constraint firstItem="n7Z-br-0Wh" firstAttribute="centerY" secondItem="eus-0F-7oS" secondAttribute="centerY" id="Z8K-qc-6a4"/>
+                                            <constraint firstAttribute="trailing" secondItem="agN-Tf-5Ot" secondAttribute="trailing" constant="10" id="g4g-Mq-iYK"/>
                                             <constraint firstItem="n7Z-br-0Wh" firstAttribute="centerX" secondItem="eus-0F-7oS" secondAttribute="centerX" id="ma3-xK-NUh"/>
                                             <constraint firstAttribute="trailing" secondItem="n7Z-br-0Wh" secondAttribute="trailing" id="zhy-F7-Vgf"/>
                                         </constraints>
@@ -169,6 +177,10 @@
                             <constraint firstItem="btM-Lt-2X1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z8R-kY-COp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="agN-Tf-5Ot" id="JkB-0d-00M"/>
+                        <outlet property="topLabel" destination="Kl5-yi-kZX" id="v9b-EZ-7aH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
